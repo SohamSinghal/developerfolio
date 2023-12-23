@@ -54,12 +54,7 @@ export default function EducationCard({school}) {
               >
                 {school.duration}
               </p>
-              <p className="education-text-desc">{school.desc}</p>
-              <div className="education-text-bullets">
-                <ul>
-                  <GetDescBullets descBullets={school.descBullets} />
-                </ul>
-              </div>
+              <p className="education-text-cgpa">Marks : {school.cgpa}</p>
             </div>
           </div>
         </div>
